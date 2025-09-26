@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roland is  - Live!</title>
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            color: #9146ff; /* Twitch Purple */
+        }
+        .container {
+            width: 100%;
+            max-width: 960px;
+            text-align: center;
+        }
+        .twitch-embed {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%; /* 16:9 Aspect Ratio */
+            margin-bottom: 20px;
+        }
+        .twitch-embed iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        .social-links a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2em;
+        }
+        .social-links a:hover {
+            color: #9146ff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to My Stream!</h1>
+        <p>Catch me live below! You can also find me on my other social platforms.</p>
+
+        <div class="twitch-embed">
+            <iframe
+                src="https://player.twitch.tv/?channel=Roland78&parent=roland7881.github.io"
+                height="100%"
+                width="100%"
+                allowfullscreen>
+            </iframe>
+        </div>
+        <div class="social-links">
+            <h2>Follow Me Everywhere!</h2>
+            <a href="https://twitter.com/YOUR_TWITTER" target="_blank">X (Twitter)</a>
+            <a href="https://www.tiktok.com/@YOUR_TIKTOK" target="_blank">TikTok</a>
+            <a href="https://www.youtube.com/YOUR_YOUTUBE" target="_blank">YouTube</a>
+        </div>
+        </div>
+
+</body>
+</html>
